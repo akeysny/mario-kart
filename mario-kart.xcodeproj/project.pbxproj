@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6236BB426A37780007C0E96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6236BB326A37780007C0E96 /* AppDelegate.swift */; };
+		D6236BB626A37780007C0E96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6236BB526A37780007C0E96 /* SceneDelegate.swift */; };
+		D6236BB826A37780007C0E96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6236BB726A37780007C0E96 /* ViewController.swift */; };
+		D6236BBB26A37780007C0E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6236BB926A37780007C0E96 /* Main.storyboard */; };
+		D6236BBD26A37781007C0E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6236BBC26A37781007C0E96 /* Assets.xcassets */; };
+		D6236BC026A37781007C0E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6236BBE26A37781007C0E96 /* LaunchScreen.storyboard */; };
+		D6236BCB26A37781007C0E96 /* mario_kartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6236BCA26A37781007C0E96 /* mario_kartTests.swift */; };
+		D6236BD626A37781007C0E96 /* mario_kartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6236BD526A37781007C0E96 /* mario_kartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6236BC726A37781007C0E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6236BA826A37780007C0E96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6236BAF26A37780007C0E96;
+			remoteInfo = "mario-kart";
+		};
+		D6236BD226A37781007C0E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6236BA826A37780007C0E96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6236BAF26A37780007C0E96;
+			remoteInfo = "mario-kart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6236BB026A37780007C0E96 /* mario-kart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mario-kart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6236BB326A37780007C0E96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6236BB526A37780007C0E96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6236BB726A37780007C0E96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6236BBA26A37780007C0E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6236BBC26A37781007C0E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6236BBF26A37781007C0E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6236BC126A37781007C0E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6236BC626A37781007C0E96 /* mario-kartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mario-kartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6236BCA26A37781007C0E96 /* mario_kartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mario_kartTests.swift; sourceTree = "<group>"; };
+		D6236BCC26A37781007C0E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6236BD126A37781007C0E96 /* mario-kartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mario-kartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6236BD526A37781007C0E96 /* mario_kartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mario_kartUITests.swift; sourceTree = "<group>"; };
+		D6236BD726A37781007C0E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6236BAD26A37780007C0E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6236BC326A37781007C0E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6236BCE26A37781007C0E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6236BA726A37780007C0E96 = {
+			isa = PBXGroup;
+			children = (
+				D6236BB226A37780007C0E96 /* mario-kart */,
+				D6236BC926A37781007C0E96 /* mario-kartTests */,
+				D6236BD426A37781007C0E96 /* mario-kartUITests */,
+				D6236BB126A37780007C0E96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6236BB126A37780007C0E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6236BB026A37780007C0E96 /* mario-kart.app */,
+				D6236BC626A37781007C0E96 /* mario-kartTests.xctest */,
+				D6236BD126A37781007C0E96 /* mario-kartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6236BB226A37780007C0E96 /* mario-kart */ = {
+			isa = PBXGroup;
+			children = (
+				D6236BB326A37780007C0E96 /* AppDelegate.swift */,
+				D6236BB526A37780007C0E96 /* SceneDelegate.swift */,
+				D6236BB726A37780007C0E96 /* ViewController.swift */,
+				D6236BB926A37780007C0E96 /* Main.storyboard */,
+				D6236BBC26A37781007C0E96 /* Assets.xcassets */,
+				D6236BBE26A37781007C0E96 /* LaunchScreen.storyboard */,
+				D6236BC126A37781007C0E96 /* Info.plist */,
+			);
+			path = "mario-kart";
+			sourceTree = "<group>";
+		};
+		D6236BC926A37781007C0E96 /* mario-kartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6236BCA26A37781007C0E96 /* mario_kartTests.swift */,
+				D6236BCC26A37781007C0E96 /* Info.plist */,
+			);
+			path = "mario-kartTests";
+			sourceTree = "<group>";
+		};
+		D6236BD426A37781007C0E96 /* mario-kartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6236BD526A37781007C0E96 /* mario_kartUITests.swift */,
+				D6236BD726A37781007C0E96 /* Info.plist */,
+			);
+			path = "mario-kartUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6236BAF26A37780007C0E96 /* mario-kart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6236BDA26A37781007C0E96 /* Build configuration list for PBXNativeTarget "mario-kart" */;
+			buildPhases = (
+				D6236BAC26A37780007C0E96 /* Sources */,
+				D6236BAD26A37780007C0E96 /* Frameworks */,
+				D6236BAE26A37780007C0E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mario-kart";
+			productName = "mario-kart";
+			productReference = D6236BB026A37780007C0E96 /* mario-kart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6236BC526A37781007C0E96 /* mario-kartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6236BDD26A37781007C0E96 /* Build configuration list for PBXNativeTarget "mario-kartTests" */;
+			buildPhases = (
+				D6236BC226A37781007C0E96 /* Sources */,
+				D6236BC326A37781007C0E96 /* Frameworks */,
+				D6236BC426A37781007C0E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6236BC826A37781007C0E96 /* PBXTargetDependency */,
+			);
+			name = "mario-kartTests";
+			productName = "mario-kartTests";
+			productReference = D6236BC626A37781007C0E96 /* mario-kartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6236BD026A37781007C0E96 /* mario-kartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6236BE026A37781007C0E96 /* Build configuration list for PBXNativeTarget "mario-kartUITests" */;
+			buildPhases = (
+				D6236BCD26A37781007C0E96 /* Sources */,
+				D6236BCE26A37781007C0E96 /* Frameworks */,
+				D6236BCF26A37781007C0E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6236BD326A37781007C0E96 /* PBXTargetDependency */,
+			);
+			name = "mario-kartUITests";
+			productName = "mario-kartUITests";
+			productReference = D6236BD126A37781007C0E96 /* mario-kartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6236BA826A37780007C0E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D6236BAF26A37780007C0E96 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D6236BC526A37781007C0E96 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D6236BAF26A37780007C0E96;
+					};
+					D6236BD026A37781007C0E96 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D6236BAF26A37780007C0E96;
+					};
+				};
+			};
+			buildConfigurationList = D6236BAB26A37780007C0E96 /* Build configuration list for PBXProject "mario-kart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6236BA726A37780007C0E96;
+			productRefGroup = D6236BB126A37780007C0E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6236BAF26A37780007C0E96 /* mario-kart */,
+				D6236BC526A37781007C0E96 /* mario-kartTests */,
+				D6236BD026A37781007C0E96 /* mario-kartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6236BAE26A37780007C0E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6236BC026A37781007C0E96 /* LaunchScreen.storyboard in Resources */,
+				D6236BBD26A37781007C0E96 /* Assets.xcassets in Resources */,
+				D6236BBB26A37780007C0E96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6236BC426A37781007C0E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6236BCF26A37781007C0E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6236BAC26A37780007C0E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6236BB826A37780007C0E96 /* ViewController.swift in Sources */,
+				D6236BB426A37780007C0E96 /* AppDelegate.swift in Sources */,
+				D6236BB626A37780007C0E96 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6236BC226A37781007C0E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6236BCB26A37781007C0E96 /* mario_kartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6236BCD26A37781007C0E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6236BD626A37781007C0E96 /* mario_kartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6236BC826A37781007C0E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6236BAF26A37780007C0E96 /* mario-kart */;
+			targetProxy = D6236BC726A37781007C0E96 /* PBXContainerItemProxy */;
+		};
+		D6236BD326A37781007C0E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6236BAF26A37780007C0E96 /* mario-kart */;
+			targetProxy = D6236BD226A37781007C0E96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6236BB926A37780007C0E96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6236BBA26A37780007C0E96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6236BBE26A37781007C0E96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6236BBF26A37781007C0E96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6236BD826A37781007C0E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6236BD926A37781007C0E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6236BDB26A37781007C0E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mario-kart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.mario-kart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6236BDC26A37781007C0E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mario-kart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.mario-kart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6236BDE26A37781007C0E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mario-kartTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.mario-kartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mario-kart.app/mario-kart";
+			};
+			name = Debug;
+		};
+		D6236BDF26A37781007C0E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mario-kartTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.mario-kartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mario-kart.app/mario-kart";
+			};
+			name = Release;
+		};
+		D6236BE126A37781007C0E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mario-kartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.mario-kartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mario-kart";
+			};
+			name = Debug;
+		};
+		D6236BE226A37781007C0E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mario-kartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.mario-kartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mario-kart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6236BAB26A37780007C0E96 /* Build configuration list for PBXProject "mario-kart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6236BD826A37781007C0E96 /* Debug */,
+				D6236BD926A37781007C0E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6236BDA26A37781007C0E96 /* Build configuration list for PBXNativeTarget "mario-kart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6236BDB26A37781007C0E96 /* Debug */,
+				D6236BDC26A37781007C0E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6236BDD26A37781007C0E96 /* Build configuration list for PBXNativeTarget "mario-kartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6236BDE26A37781007C0E96 /* Debug */,
+				D6236BDF26A37781007C0E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6236BE026A37781007C0E96 /* Build configuration list for PBXNativeTarget "mario-kartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6236BE126A37781007C0E96 /* Debug */,
+				D6236BE226A37781007C0E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6236BA826A37780007C0E96 /* Project object */;
+}
