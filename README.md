@@ -10,3 +10,5 @@ This is just the very fist part of the app, so let's get building!
 <img src="http://g.recordit.co/IAKAM7radN.gif" width=250><br>
 
 <img src="http://g.recordit.co/lVDnnreG8a.gif" width=250><br>
+
+<img src="http://g.recordit.co/2jppKRtRrW.gif" width=250><br>
